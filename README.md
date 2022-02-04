@@ -35,7 +35,7 @@ Easy to Deploy to Heroku.
 
 Press Below Button to Deploy!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/REX-BOTZ/Rename-Bot-1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/REX-BOTZ/RenameProX)
 
 #### Thanks to [subinps](https://github.com/subinps) for helping
 #### Inspired from [@HK_Rename_Bot](https://t.me/HK_Rename_Bot)
