@@ -33,7 +33,7 @@ async def help_handler(c: Client, m: "types.Message"):
                        "sᴘᴇᴇᴅ ᴅᴇᴘᴇɴᴅs ᴏɴ ʏᴏᴜ ᴍᴇᴅɪᴀ sɪᴢᴇ.\n\n"
                        "ᴊᴜsᴛ sᴇɴs ᴍᴇ ᴀ ғɪʟᴇ ᴀɴᴅ ʀᴇᴘʟʏ /rename ᴄᴏᴍᴍᴀɴᴅ\n\n"
                        "ᴛᴏ sᴇᴛ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ʀᴇᴘʟʏ /set_thumbnail ᴛᴏ ᴀɴʏ ᴘʜᴏᴛᴏ\n\n"
-                       "ᴛᴏ sᴇᴇ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟɪᴄᴋ /show_thumbnail",
+                       "ᴛᴏ sᴇᴇ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟɪᴄᴋ /show_thumbnail .",
                        reply_markup=types.InlineKeyboardMarkup([[
                            types.InlineKeyboardButton("Show Settings",
                                                       callback_data="showSettings")
