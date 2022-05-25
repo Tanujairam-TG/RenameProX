@@ -5,7 +5,7 @@ from bot.client import Client
 from pyrogram.types import Message
 from bot.core.db.database import db
 
-
+fn = os.path.basename(file_loc)   #To set file name in caption instead of renamer by rexbot 
 async def handle_not_big(
     c: Client,
     m: Message,
@@ -23,7 +23,7 @@ async def handle_not_big(
     if (not _db_caption) and (apply_caption is True):
         caption = m.reply_to_message.caption.markdown \
             if m.reply_to_message.caption \
-            else "**Renamed By: @RenameProXbot**"
+            else f"**{fn}**"
     elif _db_caption and (apply_caption is True):
         caption = _db_caption
     else:
